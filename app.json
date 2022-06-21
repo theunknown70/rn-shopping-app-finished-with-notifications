@@ -1,10 +1,12 @@
 {
   "expo": {
-    "name": "rn-shopping-app-finished-with-notifications",
-    "slug": "rn-shopping-app-finished-with-notifications",
+    "name": "ShopNow",
+    "slug": "shopping-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/shopicon.png",
+    "description": "It is an E-Commerce Mobile App particularly for buying and selling of products.",
+    "primaryColor": "#FFA500",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,13 +19,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.theunknown70.shoppingapp",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/shopicon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "useNextNotificationsApi": true,
+      "package": "com.theunknown70.shoppingapp",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
